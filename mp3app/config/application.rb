@@ -9,8 +9,8 @@ Bundler.require(*Rails.groups)
 module Mp3app
   class Application < Rails::Application
     AWS::S3::Base.establish_connection!(
-      :access_key_id => 'AKIAJ2AXUXPF5TPQI55Q',
-      :secret_access_key => 'gW4oppC5PJmt1s5ne+kAcwxA//wcCzLyV7JXYTb/'
+      :access_key_id => 'placeholder',
+      :secret_access_key => 'placeholder'
     )
 
     BUCKET = 's3tutorialmusc'
